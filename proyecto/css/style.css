@@ -1,0 +1,81 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background: #efefef;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    margin:0;
+    background: #00766b;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+header h1{
+    transition: all 0.3s ease;
+    margin: 0;
+}
+header h1:hover{
+    color: #00ffe7;
+    text-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+.container{
+    position: relative;
+    top: 100px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+section article{
+    display: inline-block;
+    transition: all 0.5s ease;
+    background: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article h2, section article p{
+    margin-left: .5rem;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    padding: 3rem;
+    color: white;
+    background: #222;
+    z-index: 1;
+
+}
+
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+    font-weight: bold;
+}
+footer p:hover{
+    color: teal;
+    text-shadow: 1px 1px 1px  black;
+}
+footer a{
+    transition: all 0.3s ease;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+footer a:hover{
+    color: crimson;
+}
